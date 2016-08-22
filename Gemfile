@@ -37,3 +37,6 @@ group :development do
 end
 
 gem 'angular-rails-templates'
+
+gem 'sprockets', '3.6.3'
+gem "responders"
