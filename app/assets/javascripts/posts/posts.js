@@ -1,8 +1,10 @@
 angular.module('flapperNews')
-.factory('posts', [function(){
-  var o = {
-    posts: []
-  };
-  return o;
+.factory('posts', [
+  '$http',
+  function(){
+    var o = {
+      posts: [{title: 'xxx'}]
+    };
+    return o;
  }])
 
